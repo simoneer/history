@@ -3,7 +3,7 @@ What is a Simon? It was the first Smartphone. This repository contains articles,
 
 The Simon was developed by a small team of dedicated engineers at IBM in the "Advanced Technology" department in Boca Raton, Florida, managed by Gary Wisgo. It was actually created in two phases:
 * Technology demo for Comdex Novermber 1992. The development occured between 8/1992 to 11/1992 and was intended to show a vision of the future through a working device. Initially code named "Sweetspot", it was an extremely successful "demo" and generated lots of press. BellSouth also became very interested which helped this development continue and led to a commercial product. It was called a "Personal Communicator" during the technology demo since the term Smartphone was not yet known.
-* Simon, the first commercial Smartphone was code named "Angler". It was announced by BellSouth at the end of 1993 and was generally available 1994.
+* Simon, the first commercial Smartphone was code named "Angler". It was announced by BellSouth on November 2, 1993 and was generally available 1994.
 
 In many ways, Simon was ahead of its time. Based on AMPS (1G analog) cellular, it used an internal modem to dial-up remote computers to transfer data. It was also before the internet was well known, so the remote computers were generally running Lotus Notes to act as eMail servers. At a time when most computers had keyboards and ran on DOS, Simon had a touch screen and apps that ran on the "Navigator"  that replaced most of DOS. You could start apps like eMail, calculator, FAX (which was popular then), world clock, address book, calendar, games and more. The technology demo in 1992 also showed examples of weather, stocks, maps and news apps, but these were not in the final product. 
 
