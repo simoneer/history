@@ -12,3 +12,14 @@ The LCD touch screen was 640x200 pixel CGA size. This made it taller than most c
 IBM and BellSouth delivered on its visionary product despite its shortcomings. There were about 50,000 Simon smartphones sold in an era when there were none. By comparison the Apple-I, the first personal computer, sold about 200. There was some interest by Alcatel to sell a version of Simon in Europe, but it never materialized.
 
 For a time, IBM continued development. A follow-on project to Simon was code named "Neon" which was much smaller with a 320x480 pixel LCD, a digital radio, and more advanced features like text that would change between portrait and landscape simply by tilting the phone, similar to today. However, IBM began to down-size all Boca Raton operations and move future development to Raleigh, NC under a new code name "Bobcat". Without the original Advanced Technology team the transition failed to make progress and IBM eventually decided to abandon follow-on projects and leave development to other companies.  There were many attempts by other companies to make a successful Smartphone and it would be over 13 years before Apple released the first iPhone.
+
+## Patents
+Several patents came from these projects which have been referenced hundreds of times by subsequent patents and listed as prior art during litigation by the major Smartphone companies.
+* Based on the development of the 1992 technology demo:
+  * 5537608 - Personal Communicator apparatus
+* Based on the 1993-1994 development of Simon:
+  * 5422656 - Personal Communicator having improved contrast control for a liquid crystal touch sensitive display
+  * 5568536 - Selective reconfiguration method and apparatus in a multiple application personal communications device
+  * 5590373 - Field programming apparatus and method for updating programs in a personal communications device
+  * 5615384 - Personal communicator having improved zoom and pan functions for editing information on touch sensitive display
+  * 5815142 - Apparatus and method for marking text on a display screen in a personal communications device
