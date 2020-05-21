@@ -1,0 +1,93 @@
+
+---- HELP ----
+
+PC/2 Functional Specifications
+
+This document  has the purpose of describing funcional specifications for the PC/2
+product. Separated documents, standards, or definitions  may also apply where noted.
+This document is  required for	DVT (Design  Verification Test) entry and must be
+reviiewed by all related functons.  Changes to the document will be handled by the
+respective IBM and Motorola document owners. This document describes the Comdex
+Technology Demo system	as phase 1, and the  production level system as phase 2. If
+the system level is not specified,  the description applies to both project phases.
+
+PC/2 Product highlights
+
+- Cellular telephone functions based on Motorola custom Micro-TEC
+- Computer functions based on custom IBM logic , using	a PC-CHIP 80C86  at 8MHz
+and 3.3v
+
+General Description
+
+System Overview
+
+System Devices
+
+System Power Requirements
+
+RF/Audio/Logic Subsystem Specifications
+
+Modem Subsystem Specifications
+
+CPU Subsystem Specifications
+CPU
+System Support Logic
+Memory
+Serial Port Interface
+PCMCIA Interface
+3-Wire Interface
+Touch Screen Interface
+LCD Interface
+Power Subsystem
+
+Software and Firmware
+Power On Self Test
+Utilities
+Application Software
+Operating System Interface
+
+Power Specifications
+Main Battery
+Backup Battery
+Protection Circuits (Battery & System terminals)
+DC Voltage Requirements
+Car Adapter
+Battery Charging Option
+
+Power Management
+Processor Speed Control
+Suspend and Resume
+Peripheral Power Management
+
+RAS Characteristics (Reliability, Availability, Servicability)
+Strategy
+RAS Design Elements
+RAS Support Plan
+
+Compatibility
+
+System Interconnect
+
+Mechanical Specification
+Size
+Weight
+Box Color and Texture
+I/O Connectors
+Identification and Labels
+
+Environmental Specificatons
+Electromagnetic Compatibility
+Thermal Specifications
+Air Quality Specifications
+Heat Dissipation
+Acoustics Specifications
+Shock/Vibration Specifications
+Liquit Spill
+
+Product Safety
+
+Standards Compliance List
+2
+
+
+

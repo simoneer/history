@@ -1,0 +1,773 @@
+9/18/1992 mtg
+- Frogdesign status
+- CEC design review status, shipped design to physical layout
+- LCD debug OK, no M signal
+	New VG230 1.1 level chip coming.
+- Mail user interface design complete
+- ISO font investigation by Human Factors
+- Inverters in LAB for testing
+
+9/24 TEAM STATUS MEETING
+
+- Frogdesign status
+	Legal agreement in process
+	Dick to visit Frogdesign 9/28
+
+- CEC
+	Design & Wayne at vendor
+	Some physical layout complete
+	Manual placement from 9/25
+	Apx 1 week delay -- reducing debug time at end to 3 weeks!
+
+- 3-wire BIOS
+	Now operating on lab pre-prototype
+	Capacitor required to limit R-Data crosstalk
+
+- Power
+	Maxim board arrived -- testing just starting
+	Sample Inverters arrived in lab --- untested still
+
+- ISO font investigation on hold
+	Screen designs/lab tests sufficent
+
+- Software
+	BIOS Touch scanner code in progress -- 80% done
+	Phone layout code operating, Operating dialer code in progress
+	Mail layout code in progress and some operating
+	PCMCIA BIOS code in progress
+	Editor/Viewer - TBD
+
+- Modem
+	Schematics complete in ORCAD
+	Final design review needed
+	Some early lab work has found minor changes required
+	Shippment to board vendor projected week of 9/28
+
+- Mechanical
+	CAD Drawings/Tapes of box complete -- shipped to SLA vendor (3D)
+	  SLA parts		  10/6
+	  Mold master		  10/14
+	  Urethane parts	  10/27
+
+- Market study/Focus sessions - kicked off
+
+
+10/2 TEAM STATUS MEETING
+
+- General
+	ID's escalation to Mii-san
+	Dick returned from frogdesign kickoff
+		frogdesign has lots of energy/ideas
+		5 frog foam models expected 10/19
+		Should view in CA or FLA?
+			(frog prefers CA due to schedule)
+	Carlos returned from first customer focus group
+		Poor comments on ID
+		Good comments on function
+		Several people did not understand E-Mail
+		Video tape has details if interested
+
+- CEC
+	Physical design review 9/28 -OK
+		Changed:	ICE->EEPROM bringup strategy
+				Shift key input pin offset
+				Battery low inverter
+				Added PCMCIA bring-up connector location
+	Circuit placement 9/29
+	Sent layout to Motorola for comment - all OK
+	Accelerated schedule may be possible!
+		Board fab expected - 10/5
+		Component placement - 10/12
+		Boards in house to debug - 10/16 (was 10/23)
+	Vadem VG230 2.0 parts DELAYed 10/12 -> 11/5
+		Asking for more 1.1 parts as backup
+	Require all parts by 10/7
+		Need all hands to help resolve anything open this week
+
+
+- ICE
+	Sophia Systems ICE order DELAYed in purchasing
+		PO issued 10/1 (true?) requested 9/11
+		Expected arrival 10/12 week
+	Vadem ICE adapter shipping 10/2
+	Vadem ICE in-circuit adapters DELAYed  10/5 -> 10/8
+	Vadem Pro-Prototype Eval board DELAYed 10/5 -> 10/8
+	1 PCMCIA card programmer arrived, 2 more coming 10/5
+
+- Software
+	Development DELAY: Phone/Mail screens were upside down!
+		Phone application flip complete.
+	BIOS Touch scanner coding in progress
+		Debug DELAYed due to lack of ICE.
+		Anyone have a ROM-simulator?
+	Phone application dialing over 3-wire!!
+	3-Wire BIOS updated
+		Can also dial via peripheral interface
+		Includes switch-hook commands for modem
+		Used also for modem debug in lab
+	Mail application now using cc:mail to receive real mail!
+	PCMCIA BIOS - Individual I/O working, TSR needs more debug
+	Editor/Viewer - TBD
+	Non-functional application snapshots - TBD
+	cc:Mail server operating in the lab!!
+
+- Modem
+	Quote package sent to vendor 9/30 (PSI & LPS)
+	Final design review occurred 9/30
+	Schematic adjustments have been made
+	Post-processing in progress before vendor RFI response returns.
+
+	Lab pre-prototype:
+	       Tested with telco cable - OK
+	       Test through cellular with updated 3-wire BIOS
+	       Tones now transfer between cellular <-> land phone
+	       No data yet: levels may need adjustment
+
+- Power
+	Main power testing OK
+		Contrast/power/bias checked out OK
+	Standby mode uses more power than expected
+		No time to safely fix by Comdex
+	Inverters tested OK without backlight
+		More testing with backlight to do
+
+- Touch
+	Brady samples expected 10/14
+
+- Mechanical
+	CAD design at SLA vendor
+	  SLA parts		  10/6	(but may arrive today!!)
+	CAD design at Mold master vendor
+	  Mold master		  10/14
+	  Urethane parts	  10/27
+
+- Comdex
+	Professional storyboard work required
+		Concern: Co-ops proposed to create this
+	Will use color-LCD w/ touch in lab for storyboard & voting.
+
+
+10/9 TEAM STATUS MEETING
+
+-- CEC
+	12 assembled boards expected early! 10/16 -> 10/15
+	All components (but 2) located for placement
+		Thanks for the team effort!
+	Due to errata, change to ICE->EEPROM bringup strategy is fortunate
+
+-- Modem
+	Modem prototype board communicating over cellular @ 1200 baud
+		2400 baud outbound OK (10/8)
+		2400 baud inbound errors under investigation
+	RFIs returned and vendor selected - PSI
+	Design shipped to vendor for layout
+		Design corrections, missing net details, Dell's machine crash
+		   caused delayed start 10/2 -> 10/9
+		Boards now expected returned apx 10/28
+
+-- ICE
+	Sophia Systems ICE arrived early!! 10/12 -> 10/6
+		Thanks Walt Depew!
+	Vadem ICE adapter arrived 10/5
+		ICE adapter causes Vadem protoboard failures.
+		Returned 10/8, fix expected 10/10
+		Some software debug on ice rather than ICE.
+	Second Vadem proto-board arrived 10/7
+		2nd functional diskette drive needed
+	Final 2 PCMCIA card programmers arrived 10/7
+
+
+-- Mechanical
+	SLA model arrived early!  10/6 -> 10/2
+	  Space for antenna loading coil missing
+	Mold master done early!   10/14 -> 10/8
+	  Will rework for antenna changes
+	Urethane parts		  10/27 tgt
+
+-- frogdesign
+	Will travel to Boca 10/19
+
+-- Software
+	BIOS Touch scanner coding done (we think)
+		Debug DELAYed due to lack of ICE adapter. (2nd week!)
+	3-Wire BIOS - complete
+	Mail application - apx 1 week more coding
+		Screen layout - 99% complete
+		cc:mail parsing - 50% complete
+	Phone application - apx 3 weeks more coding
+		Screen layouts - 99% complete
+		Incoming 3-wire message processing required
+	Editor/Viewer - apx 2 weeks coding
+		Jim Wulf just picking up
+	Non-functional application snapshots
+		Calendar & Help - apx 50% done by Frank
+		Others - TBD
+	PCMCIA operating like a diskette as a TSR!
+		VG230 1.1 errata can cause data loss
+		   Investigating possible work-around
+		Some sectors mismatch - under investigation.
+	Navigator - Completed
+		Needs applications to connect to it.
+	Office Tools menu - TBD
+	1 day DELAY from OS/2 crash on Chuck's machine
+	Sample screens & diskette given to vendors for comments:
+		frogdesign				  10/19
+		Norm Cox  at Cox & Hall 		  10/9 -> tbd
+		Motorola				  tbd
+		Jim Lewis & Dale Peterson (Human factors) tbd
+	Review of fonts & ICONs in progress: Dale Peterson
+
+-- Epson LCD, Touch, and Inverter
+	5 Samples expected early! 10/19 -> 10/13 (exit Japan)
+	15 Samples arrive later.  10/19 -> 10/21 (exit Japan)
+
+-- Brady Touch
+	Brady samples expected 10/14
+
+-- Power
+	Main power testing OK
+		Testing under RF conditions proceeding
+	Sample Inverters tested with backlight
+
+10/16 TEAM STATUS MEETING
+
+MILESTONES:
+	10/13 - Mail application dialed cellular phone, linked to
+		cc:mail application, collected mail from remote server,
+		and showed incoming status!!!
+
+	10/15 - LOTS OF HARDWARE ARRIVED FROM VENDORS:
+		   EPSON: LCD, Backlight, inverter, touch overlay
+		   PSI:   CEC planar
+		   BRADY: Touch overlay
+		Still to go:
+		   Modem (10/28), Urethane models (10/23), PI Inverter (10/16)
+
+	10/16 - CEC POWERED ON!
+		Power reworked and checked out OK.
+		Clocks, reset, and initial system setup OK.
+		Vadem IN-Circuit ICE now usable after adapter
+			arrived with fix 10/16.
+
+-- CEC
+	8 assembled boards arrived early! 10/16 -> 10/15
+	4 more arrived 10/16.
+	Testing started w/ customized BIOS...
+
+-- Motorola
+	New Motorola MicroTAC phone arrived with all features needed
+		for Comdex (7-segment messages & data enabled).
+	     ESN moved from one existing phone to new one successfully.
+	     Existing phones will be returned.
+	Misc parts ordered from Motorola for Comdex:
+	     Speakers, Mics, EMC Springs, Back Covers, Shields
+	     90 batteries! and 3 more phones.
+	5 phones on hold until 3-wire qwerks resolved:
+	     Phone powering off at odd times.
+	     Messages, especially volume, are different than previous phone.
+	Experimental temporary license sent to FCC
+
+-- frogdesign
+	New date to demo in Boca 10/19 -> 10/20
+
+-- ICE
+	Vadem ICE board problems - Returned to Vadem for repair
+		Airboard lost shipment TWICE! Recovered 10/10
+		Cracked master/slave pullups found
+		ICE boards returned 10/13 -- Now working!!
+	Modified In circuit ICE expected 10/16 with workarounds added.
+	Volume/Power/Reset button test assembly completed for target system.
+	Diskette drive problems resolved on 2nd proto-board.
+
+-- Software
+	Phone application adapted for new 3-wire commands from latest
+		MicroTAC phone. (keyhook commands changed)
+	BIOS Touch scanner debug in progress on ICE
+	3-Wire BIOS - complete
+	Mail application - apx 1 week more coding
+		Screen layout - 99% complete
+		cc:mail parsing - 50% complete
+		Changes for volume and other 3-wire message in progress
+		   with new phone hardware.
+	Phone application - apx 3 weeks more coding
+		Screen layouts - 99% complete
+		Incoming 3-wire message processing required
+	Editor	- apx 2 weeks coding
+	Non-functional application snapshots
+		Calendar & Help - apx 70% done by Frank
+		Others - TBD
+	PCMCIA operating like a diskette as a TSR!
+		Some sectors mismatch - under investigation.
+	Navigator - Completed
+		Applications connecting to it.
+	Office Tools menu - 99% DONE AND BEAUTIFUL!
+	Sample screens & diskette given to vendors for comments:
+		Norm Cox  comments just coming in.
+		frogdesign, Boca Human factors, Motorola in progress
+	Review of fonts & ICONs in progress:
+		Dale Peterson & Norm Cox
+
+-- Comdex
+	cc:Mail gateway still not set up on Notes server!
+		Dave Wu following up.
+
+	Actor will hold phone on stage, but NOT do real-time message xfers.
+
+	Lots of time looking for a LEGAL name for Comdex:
+		Information Partner ->
+		 Personal Communicator ->
+		  Personal Communicating Assistant ->
+		   Information, Anywhere-Anytime-Anybody ->
+		    Information "On the move" ->
+		     IBM hand held communications technology
+
+	Demo people selected: Brent, Wayne, Frank
+		Planing to depart no sooner than 11/13 PM
+
+	Description in brochures reads:
+
+IBM Handheld Communications Technology:  A versatile device that
+provides voice and data communications in a small, light, easy to use
+mobile package.  This streamlined hand-held package provides a cellular
+phone with information access that is as flexible as it is practical.
+
+	Review with Multi-Image a storyboard presentation for booth.
+
+-- EPSON: LCD, Touch, Inverter
+	Shipped 5 samples early 10/13 -> 10/15 ARRIVED!
+	Backlight powered on with Epson Inverter... looks good so far!
+	Touch & LCD also connected... LCD needs some adjusting
+	15 more LCD samples coming 10/21
+
+-- Inverter from P.I.
+	Backlight received at P.I. for tuning inverter had no wires or reflector
+	Initial tests indicate mounting/wiring/reliability concerns.
+	1 sample shipped anyway to Boca on 10/15... still not arrived.
+	4 on HOLD until problems understood further
+	Epson has been contacted for backlight assistance for P.I.
+
+-- Mechanical
+	5 Urethane parts early!   10/27 --> 10/23
+	    balance (5x)	  10/27
+
+-- Touch
+	All hardware arrived!
+	One Brady sample seems to have missing crosspoint.
+	Further testing required & Touch BIOS coding in progress
+
+-- Modem
+	Modem prototype now communicating over cellular @ 2400 baud BOTH WAYS!
+		Signal level, and bias adjustments solved problems.
+	Boards just finished physical layout
+		Expected assembled & returned apx 10/28
+	Surface mount crystal expected 11/2 to 11/18!
+		Working to pin this down in our favor.
+	Apx 50% of components have arrived.
+
+10/23 PC/2 TEAM STATUS MEETING
+
+MILESTONES:
+	10/21 - BIOS booting code from PCMCIA on pre-prototype.
+		"Non-system disk. Please insert... and press enter"
+		or "IBM Cassette BASIC..."
+
+	10/22 - Planar operating with integrated LCD, touch, & power.
+
+	10/23 - Phone call made with final planar linked to telephone card.
+
+-- CEC planar
+	Extensive testing resolved minor bugs. Testing going good.
+	NO YELLOW WIRES --- so far!
+	Probing difficult due to small size.
+
+		RAM - OK.	Refresh initialization fixed.
+		LCD - OK.	LCD init' sequence fixed. Bad LCD found.
+		Touch - OK.	BIOS scanning properly. Mouse API OK.
+		Vcc - OK.	Not designed to power ICE also.
+		VBias - OK.	BIOS control of LCD contrast is good.
+				VBias offset adjusted for new LCD.
+		Volume/Reset - OK
+		3Wire Phone intfc - OK	  Phone calls have been made
+	     >> EEPROM - Not programming. More investigation needed.
+		PCMCIA - TBD	Buffers may be driving at wrong time.
+		Inverter - TBD	Control of inhibit confirmed OK.
+		Serial - TBD
+		EXT Power button - TBD
+		Phone power control - TBD
+
+-- Modem
+	10x Raw boards expected Saturday 10/24
+	   Early assembly/test starting 10/24 at IBM
+	10x Assembled via vendor 10/29
+	   OpAmp Power/Gnd found reversed - but reworkable
+	   All parts but 22uF in as of 10/22
+
+-- EPSON: LCD, Touch, Inverter
+	Remaining 15x pieces arrived !
+
+-- Brady: Touch
+	5 pieces arrived.
+	Expecting 10 more
+
+-- P.I. backlight inverter
+	10 pieces arrived 10/22
+	5 more expected soon.
+
+-- Mechanical
+	5 Urethane parts arrived early!   10/27 --> 10/23 -> 10/22
+	    balance (5x)	  10/27
+	    Painting and bonding to Motorola battery guide this weekend.
+
+	Need to remove Motorola logo from 90 batteries!!
+
+-- Comdex
+
+	Description in brochures NOW reads:
+
+	    IBM will display technology models that combine voice and data
+	    communications in a small, light, easy to use mobile package.
+	    This streamlined hand-held package will provide a cellular phone
+	    with information access that is as flexible as it is practical.
+
+	Comdex Notes server operating with cc:mail gateway.
+		Mail transfers checked out with our Mail software OK - 10/23.
+		Will set-up in Comdex Lab from 10/26.
+
+	Video/Multi-media production started at Multi-Image Graphics
+	to describe the PC/2 at Comdex pedestal.
+
+		Heinz setting up Mod 70 & equipment for the demo.
+		Preliminary tests needed by 11/2 with temp laser disk
+			for "pack-up" to ship to LasVegas 11/6
+		Multi-Image final laser disk will be ready 11/13.
+
+-- Motorola
+	We requested Tom Ludwig, RF expert, to join team for week of 11/2
+		    for RF checks.
+		All test equipment requested is here except cell site
+		    simulator.
+
+	2 more Motorola MicroTAC phones arrived 10/20 with all features needed
+		for Comdex (7-segment messages & data enabled).
+	     ESNs moved from one existing phone to new one successfully.
+	     Existing phones will be returned.
+	     Messages, especially volume, are different than previous phone.
+>>	     New Ringer is different size than space for it in Comdex models!
+		Requested more Ringers from previous phone.
+
+	Misc parts ordered from Motorola for Comdex:
+	     Motorola working on it, delivery date 10/26
+	Phone powering off at odd times ???
+	Experimental temporary license just sent to FCC!
+	Motorola & Carlos participating in customer focus groups this week.
+
+-- frogdesign
+	Demoed 10/20-21 in Boca
+		Reviewed by team through all mgmt levels through Mii-san
+		Mii-san requesting frog models not be shown at Comdex
+	Follow-on frog work TBD
+
+-- ICE
+	All ICE boards working OK
+		Probe on in-circuit ICE is fragile.
+		Ordering spare.
+
+	3-wire test assembly completed for target system.
+
+-- Software
+	POST/BIOS
+		Several POST fixes to properly init Vadem chip.
+		    Some undocumented Vadem registers found.
+		Touch API confirmed OK & right side up!
+		3-wire BIOS tests just started
+>>		DOS not booting from PCMCIA -- under investigation.
+		LCD contrast controls operating OK.
+		Booting to cassette BASIC OK
+
+	Mail application - apx 1 week more testing
+		Screen layout - 100% complete
+		cc:mail parsing - 100% complete
+		Navigator coding 50% done
+			Testing started today
+		Integration with Browser complete
+		Integration with Editor TBD
+
+	Phone application - apx 2 weeks more testing/tweaking
+		Screen layouts - 100% complete
+
+		Changes to receive Motorola's "7-segment text" progressing
+		  slowly.
+>>		Better/direct phone status needed for product with
+		  Motorola's complete cooperation.
+		Creating 'simple' phone screen as backup, in case phone
+		  status can not be totally deciphered.
+
+		Some screen drawing is too slow.. may need to solve by
+			painting snapshots.
+
+	Editor	- apx 2 weeks coding
+
+	Non-functional application snapshots
+		Calendar & Help - apx 90% done by Frank
+		Others - TBD
+
+	PCMCIA operating like a diskette as a TSR!
+		Some sectors mismatch - under investigation.
+
+	Navigator - Completed
+		Applications connected to it.
+		   (Calendar, Help, Phone, Tools, Mail, Browser,
+		    & more coming...)
+
+	Sample screens & diskette given to vendors for comments:
+		Valuable comments received:
+			Norm Cox
+			frogdesign
+		Other comments pending...
+			Boca Human factors, Motorola in progress
+
+10/30 PC/2 TEAM STATUS MEETING
+
+MILESTONES:
+	10/26 - DOS BOOTING on final prototype!
+
+	10/26 - Several applications working with touch overlay on
+		final prototype!
+
+	10/29 - EEPROM working. BIOS & Applications operating
+		independant of ICE.
+
+NEXT GOALS:
+
+	11/2 - All components operating in same package by next Monday!
+		- Dependent on proper CEC Xtal to arrive 10/30
+		- Board rework needed to remove test PCMCIA socket
+		- Phone card rework/cables needed.
+		- Modem Xtal height adjustment needed.
+
+-- CEC Planar
+	- EEPROM Didn't program - multiple problems:
+		- Checked all timing and sent copies to Hitachi
+		- Added decoupling which cleaned up ready/busy line.
+		- Cold solder joint found on all planars - fixed WE signal.
+		- OE from Vadem chip had improper operation in 8-bit mode.
+
+	- Now operating independent of ICE!
+	- Two Blue wires to correct PCMCIA Driver direction lines.
+	- Probing & ICE attachment difficult due to small size.
+	- Almost all portions now tested and OK:
+
+		RAM - OK.	Refresh initialization fixed.
+		LCD - OK.	LCD init' sequence fixed. Bad LCD found.
+		Touch - OK.	BIOS scanning properly. Mouse API OK.
+		Vcc - OK.	Not designed to power ICE also.
+		VBias - OK.	BIOS control of LCD contrast is good.
+				VBias offset adjusted for new LCD.
+		Volume/Reset - OK
+		3Wire Phone intfc - OK	  Phone calls have been made
+		EEPROM - OK	Multiple changes were needed.
+		PCMCIA - OK	Buffers may be driving at wrong time.
+		Inverter - OK	Control of inhibit confirmed OK.
+		EXT Power button - OK
+		Serial - TBD
+		Phone power control - TBD
+
+-- Mechanical
+	- All urethane models arrived
+	- Buttons arrived early. 10/30 -> 10/28
+	- Final components assembled and weight is just less than 1 LB !
+	- Painting and bonded one model to Motorola battery guide
+	- ID Group assisting:
+	      - painting remainder with test colors
+	      - removing logo from 100+ batteries!
+
+
+-- Modem
+	- Cards arrived & 2 hand built	       10/24
+	- Test fixture built		       10/25-10/26
+	- Rework added			       10/27
+	- 10x production cards now expected 10/29 -> 10/30
+	- Wrong speed EPROM was ordered ... and received 10/30
+	- Correct size xtal will be shipped from Japan 11/11
+		- backup plan to move bypass cap' and use large xtal
+		  will be tested.
+	- Modem not initializing yet, even with new EPROM.
+
+-- Software
+	- Mail
+		- apx 1 week more testing
+		- MNP5 now working on Courier <-> Sierra with CC:Mail!
+		- Mail not transferring from server in Comdex Lab ??
+		- Comdex server polling adjustments made -- OK NOW??
+		- Integration with editor TBD
+	- Phone
+		- apx 1 weeks more testing/tweaking
+		- Fast screen changes implemented
+		- Many usability improvements made
+	- Calendar
+		- Completed. Can accept PROFS or DO calendar data.
+	- Address book
+		- TBD
+	- Calculator
+		- Completed.
+	- Editor
+		- 1 more week. Little progress due to Modem work.
+	- BIOS
+		- Now reasonably complete.
+		- Changed PCMCIA BIOS to fix DOS boot problem.
+			(Read and write PCMCIA card routines)
+		- Added backlight timeout
+		- Suspend/Resume code not fully functional yet.
+	- Navigator
+		- Completed.
+		- Applications connected to it.
+		   (Calendar, Help, Phone, Tools, Mail, Browser,
+		    Calculator, & more coming...)
+	- Sample screens & diskette given to vendors for comments:
+		Valuable comments received:
+			Norm Cox
+			frogdesign
+		Other comments pending...
+			Boca Human factors, Motorola in progress
+
+-- EPSON: LCD, Touch, Inverter		All pieces arrived and tested OK
+-- BRADY: Touch 			Tested OK, 5 more due
+-- P.I.:  Inverter			Tested OK, 5 more due
+-- Maxim: Power module			All pieces arrived and tested OK
+
+
+-- Comdex
+
+	- Comdex Notes server operating with cc:mail gateway.
+		Polling time of Gateway needed to be slowed
+	- Video/Multi-media production started at Multi-Image Graphics
+		Laser disk will be ready 11/13.
+	- Mod 70 operating w/ Laser disk -- AVC tests needed.
+		- RS232 not yet attached or tested
+
+      IMPORTANT:
+	ALL HARDWARE TO SEND TO LAS VEGAS MUST BE IN COMDEX LAB BY 11/4 !!
+
+		- Model 70, LCD, Laser Disk player, Cables
+		- Display stands
+		- Batteries/Chargers
+		- PC/2 systems will be hand-carried
+
+-- Motorola
+	- Tom Ludwig, RF expert, to join team for week of 11/2
+		    for RF checks.
+	- Cell site simulator expected 10/30 or 11/2
+
+	- More Phones arrived: Total 6 MicroTAC phones on hand.
+		ESN's being moved to Las Vegas phone numbers.
+	- All parts in from Motorola:
+		Buttons, Mic, Speakers, Backs, EMC springs,
+	- Phone powering off at odd times ... but problem not seen lately.
+	- Experimental temporary license request pending from FCC.
+	- Motorola & Carlos participated in customer focus groups.
+
+-- frogdesign
+	Follow-on frog ID work on hold
+
+
+11/6 TEAM STATUS MEETING
+
+MILESTONES:
+	11/2 - Completely integrated PC/2 assembled and working!
+
+	11/4 - Modem working with MNP5 and mail application!
+
+-- CEC Planar
+	- RF tests indicate good operation is possible:
+		- Receiver sensitivity degraded 2 hours into tests.
+		  Reasons not yet fully understood.
+		- Platform isn't stable with all final components.
+			- Waiting on good flex 11/6 (not hand made)
+			- Corrected ground point to phone power
+			- Chassis isn't tight
+			- Stress on phone grounding springs is different
+			- Software/phone hardware often out of sync
+		- Expect to repeat tests from 11/10 on Tom Ludwig's return.
+		- 3-wire noise is audible.
+	- ICE probe over CPU is falling apart.
+		- Checking into order status.
+		- Creating "Boot POST" software to program EEPROM & avoid ICE
+	- Almost all portions of hardware now tested and OK:
+		Serial - TBD
+		All others - OK
+	- 3-wire commands sometimes don't get through (related to phone app)
+
+-- Mechanical
+	- Test colors on models reviewed with ID
+	- 6 models sent to ID for final painting. Expected 11/10.
+	- 2 engineering models will be kept here for our tests.
+	- ID Removing logo from 100+ batteries... missed 11/5 date.
+	- Clear model or see-through holder expected for Claflin's suite.
+
+-- Modem
+	- Add production cards arrived 10/31
+	- Final Modem operational!
+		- EPROM Connector problems resolved
+		- Test fixture completed & debugged
+		- Incoming amp was eliminated to reduce noise
+		- Special command to clear EEPROM discovered
+	- Rework being added to 10x cards
+	- Surface mount xtal will be shipped from Japan 11/11
+		- backup plan to move bypass cap' and use large xtal
+		  is successful.
+
+-- Software
+	- Mail
+		- apx __ week more testing				1
+		- Exchanging mail with Comdex Lab server
+		- Integration with editor TBD
+		- Refinements for server/phone being completed
+	- Phone
+		- apx __ weeks more testing/tweaking			1
+		- Many usability improvements made
+		- 3-wire messages getting corrupted!! Needs investigation!!
+			Leading to unreliable phone connections.
+		- BIOS/Phone watchdog implemented to handle phone on/off
+	- Address book
+		- TBD
+	- Editor
+		- __ more week. 					1
+	- BIOS
+		- Now reasonably complete.
+		- PCMCIA/DOS bug found.  Card didn't write to >1MB area.
+		- Added backlight timeout
+		- Suspend/Resume code not fully functional yet, but getting
+			much better via Vadem explainations.
+		- Adjusted touch screen response time & contrast controls.
+	- Navigator
+		- Completed.
+		- Applications connected to it.
+		   (Calendar, Help, Phone, Tools, Mail, Browser,
+		    Calculator, & more coming...)
+	- Sample screens & diskette given to vendors for design comments:
+		Valuable comments received:  Norm Cox, frogdesign
+		Other comments pending: Boca Human factors, Motorola
+
+-- Motorola
+	- Tom Ludwig, RF expert from Motorola, joined team 11/2-11/4.
+	- Total 6 MicroTAC phones on hand:
+		3 enabled with Las Vegas phone numbers 11/4
+		3 more numbers will be	moved at appropriate time.
+	- Experimental temporary license request received from FCC 10/30.
+
+-- Comdex
+
+	- Video production now filming at Multi-Image Graphics 11/4-11/5.
+		Laser disk will be ready 11/13.
+	- Mod 70 operating w/ Laser disk
+		- Programming completed
+	- Equipment packed and being shipped
+		- Batteries didn't arrive in time... need to ship separately.
+	- Additional work load during Comdex.
+		- Comdex floor plus...
+		- Mii-san suite
+		- Claflin suite
+	- Need "see-through" model for Claflin
+		Target 11/6, 1pm Ness mtg & 11/11 Claflin mtg
+
+
