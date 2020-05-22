@@ -23,3 +23,6 @@ Several patents came from these projects which have been referenced hundreds of 
   * 5590373 - Field programming apparatus and method for updating programs in a personal communications device
   * 5615384 - Personal communicator having improved zoom and pan functions for editing information on touch sensitive display
   * 5815142 - Apparatus and method for marking text on a display screen in a personal communications device
+
+## Resources
+* [Technical notes for demo software](../PreComdexDemoSW/README.md)
