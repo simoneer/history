@@ -1,4 +1,4 @@
-# UPDATED README FROM 5/20/2020
+# Updated README from 5/20/2020
 
 The Navigator was software that ran on top of the DOS file system that managed the Simon
 user interface. This folder contains an early version to show how the navigator works to vendors.
@@ -13,16 +13,16 @@ The 1992 Comdex demo and the 1994 Simon product both used a system-on-chip from 
 and an architecture that was very close to IBM's PC XT. This made it very fast to develop on since applications
 could be developed on the PC and run on Simon with very little effort.
 
-The 1992 Comdex demo
-worked with a custom Motorola MicroTac cellular radio which had a unique 3-wire bus to controll it. Of note
+Cellular radios can take 2 years or more to design from scratch. To help speed development, existing radios were embedded.
+The 1992 Comdex demo worked with a custom Motorola MicroTac cellular radio which had a unique 3-wire bus to control it. Of note
 is the code in PH_RTNS.CPP which managed that communication to make calls and get status. The final Simon product
 used a cellular radio from Mitsubishi and not Motorola.
 
 Note that the software runs in portrait mode, so you need to tilt your head (or monitor) 90 degrees to view it on a PC which
 normally runs in landscape mode. Also, on a PC a mouse was used to emulate the touch screen.
-Also FYI, all files ending in '@' are font files in various styles and sizes that are rotated to work in landscape mode.
+Also FYI, all files ending in '@' are font files in various styles and sizes that are rotated to work in portrait mode.
 
-# ORIGINAL README FROM 10/12/1992
+# Original README from 10/12/1992
 
 This diskette contains programs needed to display the various phone related
 screens for the personal communicator and a program that will display fonts
