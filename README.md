@@ -25,5 +25,8 @@ Several patents came from these projects which have been referenced hundreds of 
   * 5815142 - Apparatus and method for marking text on a display screen in a personal communications device
 
 ## Resources
-* [Promotional materials](./Promotional_materials)
+* [Promotional materials](https://github.com/simoneer/history/tree/master/Promotional_materials)
+* [News clippings](https://github.com/simoneer/history/tree/master/News_clippings)
+* [Technical Documentation](https://github.com/simoneer/history/tree/master/Technical_documents)
+* [Internal memos](https://github.com/simoneer/history/tree/master/Internal%20Memos)
 * [Technical notes for demo software](./PreComdexDemoSW/README.md)
