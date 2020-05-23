@@ -13,6 +13,13 @@ IBM and BellSouth delivered on its visionary product despite its shortcomings. T
 
 For a time, IBM continued development. A follow-on project to Simon was code named "Neon" which was much smaller with a 320x480 pixel LCD, a digital radio, and more advanced features like text that would change between portrait and landscape simply by tilting the phone, similar to today. However, IBM began to down-size all Boca Raton operations and move future development to Raleigh, NC under a new code name "Bobcat". Without the original Advanced Technology team the transition failed to make progress and IBM eventually decided to abandon follow-on projects and leave development to other companies.  There were many attempts by other companies to make a successful Smartphone and it would be over 13 years before Apple released the first iPhone.
 
+## Resources
+* [Promotional materials](https://github.com/simoneer/history/tree/master/Promotional_materials)
+* [News clippings](https://github.com/simoneer/history/tree/master/News_clippings)
+* [Technical Documentation](https://github.com/simoneer/history/tree/master/Technical_documents)
+* [Internal memos](https://github.com/simoneer/history/tree/master/Internal%20Memos)
+* [Technical notes for demo software](./PreComdexDemoSW/README.md)
+
 ## Patents
 Several patents came from these projects which have been referenced hundreds of times by subsequent patents and listed as prior art during litigation by the major Smartphone companies.
 * Based on the development of the 1992 technology demo:
@@ -23,10 +30,3 @@ Several patents came from these projects which have been referenced hundreds of 
   * 5590373 - Field programming apparatus and method for updating programs in a personal communications device
   * 5615384 - Personal communicator having improved zoom and pan functions for editing information on touch sensitive display
   * 5815142 - Apparatus and method for marking text on a display screen in a personal communications device
-
-## Resources
-* [Promotional materials](https://github.com/simoneer/history/tree/master/Promotional_materials)
-* [News clippings](https://github.com/simoneer/history/tree/master/News_clippings)
-* [Technical Documentation](https://github.com/simoneer/history/tree/master/Technical_documents)
-* [Internal memos](https://github.com/simoneer/history/tree/master/Internal%20Memos)
-* [Technical notes for demo software](./PreComdexDemoSW/README.md)
