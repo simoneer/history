@@ -1,7 +1,7 @@
 # Updated README from 5/20/2020
 
 The Navigator was software that ran on top of the DOS file system that managed the Simon
-user interface. This folder contains an early version to show how the navigator works to vendors.
+user interface. [This folder](https://github.com/simoneer/history/tree/master/PreComdexDemoSW) contains an early version to show how the navigator works to vendors.
 It is NOT the final version of code that went into Simon. There's a few missing files, so please consider
 it in as-is condition.
 
@@ -13,8 +13,7 @@ The 1992 Comdex demo and the 1994 Simon product both used a system-on-chip from 
 and an architecture that was very close to IBM's PC XT. This made it very fast to develop on since applications
 could be developed on the PC and run on Simon with very little effort.
 
-Cellular radios can take 2 years or more to design from scratch. To help speed development, existing radios were embedded.
-The 1992 Comdex demo worked with a custom Motorola MicroTac cellular radio which had a unique 3-wire bus to control it. Of note
+Cellular radios can take 2 years or more to design from scratch. To help speed development, existing radios were embedded into the designs. The 1992 Comdex demo worked with a custom Motorola MicroTac cellular radio which had a unique 3-wire bus to control it. Of note
 is the code in PH_RTNS.CPP which managed that communication to make calls and get status. The final Simon product
 used a cellular radio from Mitsubishi and not Motorola.
 
