@@ -25,4 +25,5 @@ Several patents came from these projects which have been referenced hundreds of 
   * 5815142 - Apparatus and method for marking text on a display screen in a personal communications device
 
 ## Resources
+* [Promotional materials](./Promotional_materials)
 * [Technical notes for demo software](./PreComdexDemoSW/README.md)
