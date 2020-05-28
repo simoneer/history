@@ -4,6 +4,7 @@ Several patents came from these projects which have been referenced hundreds of 
   * 5537608 - Personal Communicator apparatus
 * Based on the 1993-1994 development of Simon:
   * 5422656 - Personal Communicator having improved contrast control for a liquid crystal touch sensitive display
+  * 5561705	- Full-Text	Apparatus for auto dialing telephone numbers and DTMF tones in a personal communication device
   * 5568536 - Selective reconfiguration method and apparatus in a multiple application personal communications device
   * 5590373 - Field programming apparatus and method for updating programs in a personal communications device
   * 5615384 - Personal communicator having improved zoom and pan functions for editing information on touch sensitive display
