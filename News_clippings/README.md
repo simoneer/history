@@ -18,3 +18,4 @@ Several "Simoneers" that worked on the project contributed to this video. It was
 
 ### Books
 * [The Smartphone: Anatomy of an industry - by Elizabeth Woyke](https://www.amazon.com/Smartphone-Anatomy-Industry-Elizabeth-Woyke-ebook/dp/B00JZBE6KU/ref=sr_1_1?dchild=1&keywords=The+Smartphone%3A+Anatomy+of+an+industry&qid=1591652444&sr=8-1)
+* [The One Device: The Secret History of the iPhone - by Brian Merchant](https://www.amazon.com/gp/product/B01LWRN0KI)
