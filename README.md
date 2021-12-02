@@ -16,6 +16,7 @@ IBM and BellSouth delivered on its visionary product despite its shortcomings. T
 For a time, IBM continued development. A follow-on project to Simon was code named "Neon" which was much smaller with a 320x480 pixel LCD, a digital radio, and more advanced features like text that would change between portrait and landscape simply by tilting the phone, similar to today. However, IBM began to down-size all Boca Raton operations and move future development to Raleigh, NC under a new code name "Bobcat". Without the original Advanced Technology team the transition failed to make progress and IBM eventually decided to abandon follow-on projects and leave development to other companies.  There were many attempts by other companies to make a successful Smartphone and it would be over 13 years before Apple released the first iPhone.
 
 ## Resources
+* [The Sweetspot demo](./Sweetspot%20Demo/Readme.md)
 * [Promotional materials](https://github.com/simoneer/history/tree/master/Promotional_materials)
 * [News clippings](./News_clippings/README.md)
 * [Technical Documentation](https://github.com/simoneer/history/tree/master/Technical_documents)
