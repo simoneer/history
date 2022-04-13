@@ -1,8 +1,13 @@
 # In the news
 Simon was released before the internet was available to the general public. As a result, most news about Simon was in newspapers
-and magazines. Those printed news articles from 1992-1994 have been scanned into this 
-[news clipping folder](https://github.com/simoneer/history/tree/master/News_clippings). 
-More recent news articles about Simon are generally found on the internet and are listed here. 
+and magazines. 
+
+### News (1992-1994)
+Those printed news articles from 1992-1994 have been scanned into this 
+[news clipping folder](https://github.com/simoneer/history/tree/master/News_clippings).
+
+### Recent News
+More recent news articles about Simon are generally found on the internet. Notible articles are listed here. 
 
 * [Wikipedia – IBM Simon](https://en.wikipedia.org/wiki/IBM_Simon)
 * [Typepad - Are you an Innovation Giant?](https://dux.typepad.com/dux/2011/07/are-you-an-innovation-giant-.html)
@@ -19,3 +24,7 @@ Several "Simoneers" that worked on the project contributed to this video. It was
 ### Books
 * [The Smartphone: Anatomy of an industry - by Elizabeth Woyke](https://www.amazon.com/Smartphone-Anatomy-Industry-Elizabeth-Woyke-ebook/dp/B00JZBE6KU/ref=sr_1_1?dchild=1&keywords=The+Smartphone%3A+Anatomy+of+an+industry&qid=1591652444&sr=8-1)
 * [The One Device: The Secret History of the iPhone - by Brian Merchant](https://www.amazon.com/gp/product/B01LWRN0KI)
+
+### Movies
+* [The Net](https://www.imdb.com/title/tt0113957/) (1995)
+* [For All Mandkind](https://www.imdb.com/title/tt7772588/), [The Bleeding Edge](https://www.imdb.com/title/tt13417002/) (2021) on Apple TV ([Photo](https://www.imdb.com/title/tt13417002/mediaviewer/rm3295008001/))
