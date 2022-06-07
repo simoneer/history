@@ -3,4 +3,5 @@ Prior to the commercial product called Simon there was a technology demo of the 
 
 ## Images
 * [SweetSpot beside an iPhone](./SweetSpotAndiPhone5.JPG)
-* [Frank Canova holding SweetSpot at Comdex 1992](../News_clippings/Big%20Blue%20Unveiling%20(USA%20Today).pdf)
+* [USA Today - Frank Canova holding SweetSpot at Comdex 1992](../News_clippings/Big%20Blue%20Unveiling%20(USA%20Today).pdf)
+* [Video of SweetSpot at Comdex 1992, one day before public viewing](https://youtu.be/8lSVf8iXxrk?t=458)
