@@ -21,7 +21,7 @@ For a time, IBM continued development. A follow-on project to Simon was code nam
 ## Resources
 * [The Sweetspot demo](https://simoneer.github.io/history/Sweetspot%20Demo/)
 * [Promotional materials](https://github.com/simoneer/history/tree/master/Promotional_materials)
-* [News clippings](./News_clippings/README.md)
+* [In the News](./News_clippings/README.md)
 * [Technical Documentation](https://github.com/simoneer/history/tree/master/Technical_documents)
 * [Internal memos](https://github.com/simoneer/history/tree/master/Internal%20Memos)
 * [Technical notes for demo software](./PreComdexDemoSW/README.md)
