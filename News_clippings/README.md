@@ -31,6 +31,7 @@ Several "Simoneers" that worked on the project contributed to this video. It was
 
 ### Museums
 * [Mobile Phone Museum](https://www.mobilephonemuseum.com/phone-detail/ibm-simon) - Oxford, England, UK
+* [PK Porthcurno, Museum of Global Communications](https://archivesit.org.uk/going-mobile-exhibition-explores-40-years-of-mobile-phone-technology/) - Cornwall, England, UK
 * [Computer History Museum](https://www.computerhistory.org/collections/catalog/102711516) - Silicon Valley
 * [London Science Museum](https://collection.sciencemuseumgroup.org.uk/objects/co8362946/simon-mobile-communicator-1994-1995-pda)
 * [Media Archaeology Lab](https://www.mediaarchaeologylab.com/collection/ibm-simon-personal-communicator-5f00199) - University of Colorado at Boulder
